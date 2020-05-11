@@ -62,7 +62,6 @@ h1 {
 	clear: both;
 }
 
-
 .btn:hover {
 	background-color: white;
 	border: 0;
@@ -116,7 +115,6 @@ pre {
 	box-shadow: 0 25px 25px rgba(128, 128, 128, 0.664);
 }
 
-
 input#demoText {
 	color: white;
 	font-size: 25px;
@@ -131,11 +129,11 @@ input#demoText {
 		border-bottom: 3px solid rgb(16, 16, 156);
 		transition: var(--transition);
 	}
-	
-	+#labelSearch {
-	margin-left: 70px;
-	
-		+#searchFont {
+
+	+ #labelSearch {
+		margin-left: 70px;
+
+		+ #searchFont {
 			color: white;
 			font-size: 25px;
 			border: none;
@@ -156,15 +154,13 @@ input#demoText {
 ul {
 	margin-left: 75px;
 	margin-right: 50px;
-
-	
 }
-
 
 /* Font Classes */
 
-
 span {
+	word-wrap: break-word;
+
 	&.balsamiq {
 		font-family: 'Balsamiq Sans', cursive;
 	}

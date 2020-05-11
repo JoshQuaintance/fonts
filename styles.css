@@ -168,6 +168,10 @@ ul {
 }
 
 /* Font Classes */
+span {
+  word-wrap: break-word;
+}
+
 span.balsamiq {
   font-family: 'Balsamiq Sans', cursive;
 }

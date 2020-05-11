@@ -1,0 +1,199 @@
+/* Balsamiq Sans */
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap");
+
+/* Dancing Script */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+/* Indie Flower */
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+/* Modak */
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+// Comic Neue
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+//Bangers
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+/*  Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+/* Noto Sans JP */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+:root {
+	--transition: all .5s ease;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #222;
+	color: white;
+	margin-top: 25px;
+}
+
+h1 {
+	margin-bottom: 50px;
+	margin-top: 200px;
+
+	&.title {
+		margin-bottom: 50px;
+		margin-top: 0 !important;
+		text-align: center;
+		font-family: 'Indie Flower', cursive;
+	}
+}
+
+.btn {
+	float: right;
+	margin-right: 150px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 1px solid white;
+	border-radius: 10px;
+	transition: all .5s ease;
+	clear: both;
+}
+
+
+.btn:hover {
+	background-color: white;
+	border: 0;
+	color: black;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+
+span.demo {
+	filter: brightness(200%) contrast(200%);
+	font-size: 45px;
+	backdrop-filter: blur(4px);
+	user-select: all;
+	-webkit-user-select: all;
+}
+
+li {
+	list-style-type: none;
+}
+
+/* For codes */
+pre {
+	background-color: rgb(41, 39, 39);
+	color: white;
+	margin-top: 50px !important;
+	padding-bottom: 20px !important;
+	padding-top: 0px !important;
+	padding-left: 0px !important;
+	margin-right: 150px !important;
+	margin-left: 0px !important;
+	border-radius: 5px !important;
+	user-select: all;
+	-webkit-user-select: all;
+}
+
+.inputContainer {
+	margin-left: 0px !important;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: sticky;
+	top: 0px;
+	left: 0px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 100%;
+	font-family: 'Comic Neue', cursive;
+	font-size: 25px;
+	background-color: #222;
+	z-index: 500;
+	box-shadow: 0 25px 25px rgba(128, 128, 128, 0.664);
+}
+
+
+input#demoText {
+	color: white;
+	font-size: 25px;
+	border: none;
+	border-bottom: 2px solid white;
+	outline: none;
+	background-color: #222;
+	transition: var(--transition);
+	padding-bottom: 5px;
+
+	&:focus {
+		border-bottom: 3px solid rgb(16, 16, 156);
+		transition: var(--transition);
+	}
+	
+	+#labelSearch {
+	margin-left: 70px;
+	
+		+#searchFont {
+			color: white;
+			font-size: 25px;
+			border: none;
+			border-bottom: 2px solid white;
+			outline: none;
+			background-color: #222;
+			transition: var(--transition);
+			padding-bottom: 5px;
+
+			&:focus {
+				border-bottom: 3px solid rgb(16, 16, 156);
+				transition: var(--transition);
+			}
+		}
+	}
+}
+
+ul {
+	margin-left: 75px;
+	margin-right: 50px;
+
+	
+}
+
+
+/* Font Classes */
+
+
+span {
+	&.balsamiq {
+		font-family: 'Balsamiq Sans', cursive;
+	}
+
+	&.dancing-script {
+		font-family: 'Dancing Script', cursive;
+	}
+
+	&.indie-flower {
+		font-family: 'Indie Flower', cursive;
+	}
+
+	&.modak {
+		font-family: 'Modak', cursive;
+	}
+
+	&.neue {
+		font-family: 'Comic Neue', cursive;
+	}
+
+	&.Bangers {
+		font-family: 'Bangers', cursive;
+	}
+
+	&.montserrat {
+		font-family: 'Montserrat', cursive;
+	}
+
+	&.noto {
+		font-family: 'Noto Sans JP', cursive;
+	}
+}

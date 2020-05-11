@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Fonts</title>
+        <link rel="icon" href=".svg" type="image/svg+xml">
+        
+        
+        <!-- CSS Links -->
+        <link rel="stylesheet" href="styles.css">
+
+        <!--Prism Css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/themes/prism-okaidia.css">
+
+        <!--AOS CDN-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <!--JQuery Link-->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    </head>
+
+    <body>
+        
+        <h1 class="title">Documentation of all the fonts I ever used.</h1>
+
+        <div class="inputContainer">
+            <label for="demoText">Demo Text:</label>&ensp;
+            <input type="text" placeholder="Type Demo Text Here" id="demoText" onkeyup="demoText()">
+
+            <!-- 
+            <label for="searchFont" id="labelSearch">Search Font:</label>&ensp;
+            <input type="text" id="searchFont" onkeyup="fontSearch()" placeholder="Search font name...">-->
+        </div>
+        
+
+<ul id="myUL">
+<section id="balsamiq"></section>
+<li class="balsamiq" id="balsamiq">
+
+<h1>Balsamiq Sans</h1>
+
+<span class="demo balsamiq">Demo Text</span>
+
+<pre><code class="language-css balsamiq-import">
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap");
+</code></pre>
+
+    <span class="btn" id="balsamiq" onclick="copyImport(this.id)">Copy</span>
+
+</li>
+
+
+<section id="dancing-script"></section>
+<li class="dancing-script" >
+
+<h1>Dancing Script</h1>
+<span class="demo dancing-script">Demo Text</span>
+
+<pre><code class="language-css dancing-script-import">
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+</code></pre>
+
+<span class="btn" id="dancing-script" onclick="copyImport(this.id)">Copy</span>
+
+</li>
+
+
+<section id="indie-flower"></section>
+<li class="indie-flower">
+
+<h1>Indie Flower</h1>
+
+<span class="demo indie-flower">Demo Text</span>
+
+<pre><code class="language-css indie-flower-import">
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+</code></pre>
+
+<span class="btn" id="indie-flower" onclick="copyImport(this.id)">Copy</span>
+
+</li>
+
+
+<section id="modak"></section>
+<li class="modak">
+
+<h1>Modak</h1>
+
+<span class="demo modak">Demo Text</span>
+
+<pre><code class="language-css modak-import">
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+</code></pre>
+
+<span class="btn" id="modak" onclick="copyImport(this.id)">Copy</span>
+
+</li>
+
+
+<section id="neue"></section>
+<li class="neue">
+
+<h1>Comic Neue</h1>
+
+<span class="demo neue">Demo Text</span>
+
+<pre><code class="language-css neue-import">
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+</code></pre>
+
+<span class="btn" id="neue" onclick="copyImport(this.id)">Copy</span>
+
+</li>
+
+
+<section id="bangers"></section>
+<div class="bangers">
+
+<h1>Bangers</h1>
+
+<span class="demo bangers">Demo Text</span>
+
+<pre><code class="language-css bangers-import">
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+</code></pre>
+
+<span class="btn" id="bangers" onclick="copyImport(this.id)">Copy</span>
+
+</div>
+
+
+<section id="montserrat"></section>
+<li class="montserrat">
+
+<h1>Montserrat</h1>
+
+<span class="demo montserrat">Demo Text</span>
+
+<pre><code class="language-css monsterrat-import">
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+</code></pre>
+
+<span class="btn" id="monsterrat" onclick="copyImport(this.id)">Copy</span>
+
+</li>
+
+
+<section id="noto"></section>
+<li class="noto">
+
+<h1>Noto Sans JP</h1>
+
+<span class="demo noto">Demo Text</span>
+
+<pre><code class="language-css noto-import">
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+</code></pre>
+
+<span class="btn" id="noto" onclick="copyImport(this.id)">Copy</span>
+
+</li>
+
+
+
+
+</ul>
+
+
+       <!--Prism Syntax Highlighter-->
+       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/prism.min.js"></script>
+
+       <!--AOS JS CDN-->
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+       <!-- jQuery CDN -->
+       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+       <!-- Javascript Link -->
+       <script type="text/javascript" src="scripts.js"></script>
+    </body>
+</html>

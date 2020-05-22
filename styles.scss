@@ -22,6 +22,9 @@
 /* Noto Sans JP */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
 
+/* Chelsea Market */
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
 :root {
 	--transition: all .5s ease;
 }
@@ -191,5 +194,9 @@ span {
 
 	&.noto {
 		font-family: 'Noto Sans JP', cursive;
+	}
+
+	&.chelsea-market {
+		font-family: 'Chelsea Market', cursive;
 	}
 }

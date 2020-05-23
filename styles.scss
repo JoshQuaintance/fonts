@@ -25,6 +25,9 @@
 /* Chelsea Market */
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 
+/* Bitter */
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
 :root {
 	--transition: all .5s ease;
 }
@@ -198,5 +201,10 @@ span {
 
 	&.chelsea-market {
 		font-family: 'Chelsea Market', cursive;
+	}
+
+	&.bitter {
+		font-family: 'Bitter', cursive;
+		
 	}
 }
